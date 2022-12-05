@@ -1,0 +1,33 @@
+*{
+    /* universal selector */
+    background-color:azure;
+}
+/*  
+html{
+    background-color:red ;
+}
+body{
+    background-color:antiquewhite;
+} */
+h1{
+    color:red ;
+   
+}
+h1:hover{
+    opacity:0.5;
+    /* saydamlık katsayısı */
+    cursor: pointer;
+}
+li{
+    list-style-type:none;
+    color:blueviolet;
+}
+li:hover{
+    color:peru;
+    font-weight:800;
+    cursor: pointer;
+    /* işaretçi el şeklini alır cursor */
+}
+.list{
+    border:1px solid red;
+}

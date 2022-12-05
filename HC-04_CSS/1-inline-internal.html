@@ -5,8 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Internal Inline</title>
+    <style>
+    img{
+        width:50%;
+        border:2px solid red;
+        border-radius:50%;
+        border-style:dotted;
+    }
+    .img-div{
+        text-align:center;
+    }
+    #par{
+        color:purple;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        text-align:justify;
+        font-weight:400;
+        font-size:20px;
+    }
+
+    </style>
 </head>
 <body>
-    
+   <!-- ctrl ö kısayoludur.
+   * Inline CSS, HTML elementlerine style keyword'u ile eklenir.
+   * style kelimesinin ici aslinda CSS alanidir.
+   * Sadece eklenen element icin bir stillendirme gerceklestirir.
+   * Bu sebeple cok pratik bir yontem degildir.
+   * HTML kodlarini kalabaliklastirdigi icin kodun gorunumunu karmasiklastirir.
+-->
+
+    <h1 style="color:red; text-align:center;">Using CSS</h1>
+
+    <p style="background-color:rgb(101, 237, 101);">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo magni esse iusto cum facere provident laborum quam placeat voluptatum molestias quas ducimus neque at, ut cupiditate incidunt accusantium maxime quasi!
+    </p>
+    <div class="img-div">
+
+    <img src="https://plus.unsplash.com/premium_photo-1668791193861-383d104d7cd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cml2ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+     alt=""/>
+     <img src="https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cml2ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" alt=""/>
+    </div>
+
+    <p id="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tempore blanditiis tempora, asperiores reprehenderit iste consequuntur dolorem praesentium nihil iure.</p>
 </body>
 </html>
