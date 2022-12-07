@@ -1,14 +1,57 @@
 *{
     margin:0;
     padding:0;
+    box-sizing:border-box;
+
 }
 
 .container{
     background-color:aquamarine;
+    margin:10px;
+    padding:20px;
+    text-align:center;
+    /* bir blok içerisinde inline elementler var ise bunlar text align ile hizalanabilir. Blok element içerisindeki blok elementler text align ile hizalanmaz */
 }
 .div{
     background-color:antiquewhite;
-    margin-bottom:10px;
-    margin-top:20px;
+    /* margin-bottom:10px; */
+    /* margin-top:20px; bunlar ezildi */
     padding:20px;
+    width:50%;
+    text-align:center;
+    margin:20px auto;
+    /* div gibi blok elementler margin auto ile hizalanabilir. */
+    border:10px solid red;
+}
+hr{
+    margin:30px 10px;
+}
+.nav{
+    text-align:center;
+}
+.nav li{
+display:inline-block;
+width:100px;
+margin-right:10px;
+margin-top:20px;
+/* margin-top:20px; inline elementler bunlundukları yer kadar alan kapladıkları için margin top-bottom padding top padding bottom alamaz(inline-blockta kullanılır) */
+background-color:antiquewhite;
+border-radius:10px;
+padding:10px;
+text-align:center;
+}
+h2{
+    margin-bottom:20px;
+    text-align:center;
+ 
+}
+h2:hover{
+    opacity:0.5;
+    cursor: pointer;
+}
+.nav li:hover{
+cursor: pointer;
+background-color:peru;
+color:azure;
+font-weight:700;
 }
