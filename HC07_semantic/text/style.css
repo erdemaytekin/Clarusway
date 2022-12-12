@@ -1,0 +1,11 @@
+html{
+    font-size:20px;
+    /* default font size 16pxdir 16-32 20-40 oldu */
+}
+
+h1{
+    color:red; /* değiştirilmediği sürece h1 büyüklüğü 32px  */
+}
+p{
+    /* p'nin size default font-size eşittir normali 16 oldugu için 16'dır */
+}
