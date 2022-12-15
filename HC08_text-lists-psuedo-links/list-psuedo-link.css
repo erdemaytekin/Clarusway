@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  /* padding: 0; */
+}
+/****** LISTS *****/
+
+.languages {
+  /*? none | disc | circle |square | decimal etc. */
+  list-style-type: circle;
+  list-style-position: inside;
+  /* padding: 0; */
+  /* margin-left: 20px; */
+  list-style-image: linear-gradient(to left bottom, red, blue);
+}
+
+/*** FONTAWESOME ****/
+.awesome {
+  color: red;
+}
+
+/*** PSEUDO CLASS ****/
+ul.pseudo li {
+  list-style-type: none;
+  background-color: aliceblue;
+  border: 1px solid grey;
+  width: 10rem;
+}
+ul.pseudo li:first-child {
+  background-color: antiquewhite;
+  color: red;
+}
+ul.pseudo li:nth-child(even) {
+  background-color: purple;
+  color: aqua;
+}
+ul.pseudo li:last-child {
+  background-color: red;
+  color: white;
+}
+ul.pseudo li:nth-child(4) {
+  background-color: peru;
+  color: aqua;
+}
+ul.pseudo li:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+ul.pseudo li:active {
+  font-weight: 900;
+}
+
+/*** PSEUDO ELEMENT ****/
+/*Psuedo elements ::before ::after
+::first-Line, ::first-letter*/
+/*psuedo elementler htmlde var olmayan bir elementi eklemeyi ve stillendirmemizi sağlayann elementler gibi dusunulebilir.
+*/
+
+ul.pseudo li::before {
+  content: "❤️";
+}
+ul.pseudo li::after {
+  content: "💲";
+}
+ul.pseudo li:nth-child(3)::before {
+  content: "😂";
+}
+ul.pseudo li:last-child::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 600;
+  content: "\f662";
+}
+
+.ps-elements::first-line {
+  font-weight: 900;
+}
+
+.ps-elements::first-letter {
+  font-size: 200%;
+}
