@@ -62,7 +62,7 @@
 
 // const year = Number(prompt("Lütfen yili giriniz"));
 // if(year%4==0&& year%100!=0 || year%400==0){
-//     console.log(`${year} artik yildasiniz `);
+//    console.log(`${year} artik yildasiniz `);
 // }
 // else{
 //     console.log(`${year} artik yilda degilsiniz `);
