@@ -18,7 +18,7 @@ const car = {
   colors: ["blue", "purple"],
 };
 
-//* 1.YONTEM (Classical)
+//* 1.YONTEM (Classical) 
 // const name1 = car.name
 // const model1 = car["model"]
 // console.log(name1)
