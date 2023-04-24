@@ -10,6 +10,7 @@
 // }
 
 
+
 //   let result;
 // 10+10 kere doner
 // for( let row=1;row<10;row++){
